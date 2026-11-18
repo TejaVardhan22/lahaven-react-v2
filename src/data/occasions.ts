@@ -1,0 +1,108 @@
+import type { Occasion } from '@/types';
+
+export const occasions: Occasion[] = [
+  {
+    id: 'birthday',
+    name: 'Birthday',
+    slug: 'birthday',
+    description: 'Celebrate another year of sweetness with a cake as special as the moment.',
+    image: {
+      src: '/images/products/chocolate-overload-cake.jpg',
+      alt: 'LaHaven Birthday celebration cake',
+      width: 1200,
+      height: 900,
+    },
+    cakeCount: 16,
+  },
+  {
+    id: 'anniversary',
+    name: 'Anniversary',
+    slug: 'anniversary',
+    description: 'Sweet milestones deserve even sweeter cakes — mark your love in layers.',
+    image: {
+      src: '/images/products/heart-shaped-red-velvet.jpg',
+      alt: 'LaHaven Romantic heart anniversary cake',
+      width: 1000,
+      height: 800,
+    },
+    cakeCount: 10,
+  },
+  {
+    id: 'wedding',
+    name: 'Wedding & Grand',
+    slug: 'wedding',
+    description: 'Bespoke tiered creations crafted for your perfect day — stunning centerpieces baked to order.',
+    image: {
+      src: '/images/products/chocolate-fantasy-cake.jpg',
+      alt: 'LaHaven Designer wedding cake centerpiece',
+      width: 1200,
+      height: 900,
+    },
+    cakeCount: 6,
+  },
+  {
+    id: 'baby-shower',
+    name: 'Baby Shower',
+    slug: 'baby-shower',
+    description: 'Welcome the little one with pastel bento cakes and delicate fruit sponges.',
+    image: {
+      src: '/images/products/heart-shaped-strawberry.jpg',
+      alt: 'LaHaven Pastel pink baby shower cake',
+      width: 1000,
+      height: 800,
+    },
+    cakeCount: 5,
+  },
+  {
+    id: 'engagement',
+    name: 'Engagement',
+    slug: 'engagement',
+    description: 'Say yes to a beautiful cake that celebrates the beginning of forever.',
+    image: {
+      src: '/images/products/white-forest-cake.jpg',
+      alt: 'LaHaven Elegant engagement gateau with white chocolate curls',
+      width: 1200,
+      height: 900,
+    },
+    cakeCount: 6,
+  },
+  {
+    id: 'graduation',
+    name: 'Milestones & Wins',
+    slug: 'celebration',
+    description: 'Cap off milestone achievements with French gateaux and artisanal chocolate cakes.',
+    image: {
+      src: '/images/products/royal-opera-cake.jpg',
+      alt: 'LaHaven Royal Opera Gateau for milestone celebrations',
+      width: 1200,
+      height: 900,
+    },
+    cakeCount: 8,
+  },
+  {
+    id: 'corporate',
+    name: 'Corporate & Gifts',
+    slug: 'corporate',
+    description: 'Handcrafted macarons, brownies and cupcakes packaged for office gifting.',
+    image: {
+      src: '/images/products/gourmet-macarons.jpg',
+      alt: 'LaHaven French macaron gift boxes for corporate gifting',
+      width: 1000,
+      height: 800,
+    },
+    cakeCount: 7,
+  },
+  {
+    id: 'just-because',
+    name: 'Sweet Cravings',
+    slug: 'just-because',
+    description: 'No occasion needed — sometimes the best celebrations are spontaneous sweet moments.',
+    image: {
+      src: '/images/products/belgian-chocolate-truffle.jpg',
+      alt: 'LaHaven Signature Belgian Chocolate Truffle Cake',
+      width: 1200,
+      height: 900,
+    },
+    cakeCount: 18,
+  },
+];
